@@ -18,7 +18,7 @@ function animateCSS(element, animationName) {
 }
 
 function randomAnimeAction(animationName) {
-  var animeActions = ['pulse', 'rubberBand', 'swing', 'shake'];
+  var animeActions = ['rubberBand', 'swing', 'shake', 'bounce'];
   var filteringAnimeActions = animeActions.filter(function (action) {
     return action != animationName;
   });
