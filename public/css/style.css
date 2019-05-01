@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial','Avenir','Helvetica Neue','Helvetica','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic';
+    width: 100vw;
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 63px;
+}
+
+.main-visual-section {
+    display: inline-block;
+    width: 100%;
+    height: 585px;
+    background: #161616;
+}
+
+.main-visual {
+    background-image: url("../image/main_visual.svg");
+    background-repeat: no-repeat;
+    margin: 135px auto auto auto;
+    width: 306px;
+    height: 228px;
+    text-align: center;
+}
+
+.treasure {
+    display: inline-block;
+    margin-top: 80px;
+}
+
+.about-section {
+    text-align: center;
+    width: 100%;
+}
+
+.topic-title {
+    margin-top: 63px;
+    font-family: Futura;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 37px;
+    color: #4F4F4F;
+}
+
+.topic-title-line {
+    width: 26px;
+    height: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    border: 1.5px solid #4F4F4F;
+}
+
+.company-section {
+    text-align: center;
+    width: 100%;
+}
+
+.plain-description {
+    margin: 33px auto 40px auto;
+    width: 312px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;/* or 200% */
+    color: #4F4F4F;
+    text-align: left;
+}
+
+.company-description {
+    margin: 33px auto 90px auto;
+    width: 223px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;/* or 214% */
+    color: #4F4F4F;
+    text-align: left;
+}
+
+.footer-section {
+    text-align: center;
+    width: 100%;
+    height: 41px;
+    background: #161616;
+}
+
+.copyright {
+    display: inline-block;
+    margin-top: 5px;
+    width: 79px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;/* or 214% */
+    color: #E3E3E3;
+}
