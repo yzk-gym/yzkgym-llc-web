@@ -18,9 +18,7 @@ function animateCSS(element, animationName) {
 
 function randomAnimeAction(animationName) {
     const animeActions = ['pulse', 'rubberBand', 'swing', 'shake']
-    if (animationName != null) {
-        animeActions.filter(action => action != animationName)
-    }
-    const randomNum = Math.floor( Math.random() * animeActions.length )
-    return animeActions[randomNum]
+    const filteringAnimeActions = animeActions.filter(action => action != animationName)
+    const randomNum = Math.floor( Math.random() * filteringAnimeActions.length )
+    return filteringAnimeActions[randomNum]
 }

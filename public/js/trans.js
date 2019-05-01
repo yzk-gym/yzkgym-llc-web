@@ -19,13 +19,9 @@ function animateCSS(element, animationName) {
 
 function randomAnimeAction(animationName) {
   var animeActions = ['pulse', 'rubberBand', 'swing', 'shake'];
-
-  if (animationName != null) {
-    animeActions.filter(function (action) {
-      return action != animationName;
-    });
-  }
-
-  var randomNum = Math.floor(Math.random() * animeActions.length);
-  return animeActions[randomNum];
+  var filteringAnimeActions = animeActions.filter(function (action) {
+    return action != animationName;
+  });
+  var randomNum = Math.floor(Math.random() * filteringAnimeActions.length);
+  return filteringAnimeActions[randomNum];
 }
