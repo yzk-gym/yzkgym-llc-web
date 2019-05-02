@@ -27,7 +27,7 @@ body {
     .logo-pc {
         display: flex;
         width: 219px;
-        height: 71px:
+        height: 71px;
     }
 }
 
@@ -61,17 +61,34 @@ body {
         margin: 74px auto auto auto;
     }
 }
+/* iPhone5/SEだとダサくなっちゃうので調整する */
+@media screen and (max-width: 320px) {
+    .main-visual {
+        width: 300px;
+        height: 201px;
+        background-size: cover;
+        margin: 130px auto auto 14px;
+    }
+}
 
 .treasure {
     display: inline-block;
     margin-top: 80px;
 }
+
 @media screen and (min-width: 481px) {
     .treasure {
         width: 160px;
         height: 146px;
         margin-top: 153px;
         margin-left: -20px;
+    }
+}
+/* iPhone5/SEだとダサくなっちゃうので調整する */
+@media screen and (max-width: 320px) {
+    .treasure {
+        margin-top: 66px;
+        margin-left: -14px;
     }
 }
 
@@ -88,6 +105,10 @@ body {
     font-size: 28px;
     line-height: 37px;
     color: #4F4F4F;
+}
+
+.kerning-tuning {
+    letter-spacing: -0.02em;
 }
 
 .topic-title-line {
@@ -113,6 +134,13 @@ body {
     line-height: 28px;/* or 200% */
     color: #4F4F4F;
     text-align: left;
+}
+/* iPhone5/SEだとダサくなっちゃうので調整する */
+@media screen and (max-width: 320px) {
+    .plain-description {
+        width: 260px;
+        font-size: 12px;
+    }
 }
 
 .company-description {
