@@ -27,7 +27,7 @@ body {
     .logo-pc {
         display: flex;
         width: 219px;
-        height: 71px:
+        height: 71px;
     }
 }
 
@@ -88,6 +88,10 @@ body {
     font-size: 28px;
     line-height: 37px;
     color: #4F4F4F;
+}
+
+.kerning-tuning {
+    letter-spacing: -0.02em;
 }
 
 .topic-title-line {
