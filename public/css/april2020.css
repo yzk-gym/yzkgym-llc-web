@@ -1,0 +1,11 @@
+body {
+    font-family: 'Arial','Avenir','Helvetica Neue','Helvetica','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic';
+    width: 100vw;
+
+}
+.main-section {
+    height: 0;
+    background: #FFFFFF url("../image/website.png") no-repeat center center;
+    background-size: 100% auto;
+    padding-top: 132.6%;
+}
