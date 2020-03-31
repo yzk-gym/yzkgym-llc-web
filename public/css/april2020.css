@@ -13,6 +13,7 @@ body {
     .main-section {
         width: 750px;
         padding-top: 956px;
+        padding-bottom: 36px;
         margin: 0 auto 0 auto;
     }
 }
