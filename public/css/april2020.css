@@ -17,3 +17,27 @@ body {
         margin: 0 auto 0 auto;
     }
 }
+
+.tube-wrap {
+    position: relative;
+    padding-bottom: 56.25%; /*アスペクト比 16:9の場合の縦幅*/
+    height: 0;
+    overflow: hidden;
+    margin: 30px auto 70px auto;
+}
+@media screen and (min-width: 750px) {
+    .tube-wrap {
+        padding-bottom: 0;
+        width: 750px;
+        height: 500px;
+    }
+}
+
+.tube-wrap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0 auto 0 auto;
+    width: 100%;
+    height: 100%;
+}
