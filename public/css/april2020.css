@@ -23,7 +23,7 @@ body {
     padding-bottom: 56.25%; /*アスペクト比 16:9の場合の縦幅*/
     height: 0;
     overflow: hidden;
-    margin: 70px auto 70px auto;
+    margin: 30px auto 70px auto;
 }
 @media screen and (min-width: 750px) {
     .tube-wrap {
